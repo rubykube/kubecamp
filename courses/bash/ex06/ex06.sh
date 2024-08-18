@@ -6,7 +6,7 @@ map() {
         return 1
     fi
 
-    command=$1
+    local command=$1
     shift
 
     for arg in "$@"; do
